@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>علاقمندی‌های من</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* بک‌گراند نئونی */
+    body {
+      background: linear-gradient(135deg, #0f0b17, #56083a, #ef4def);
+      min-height: 100vh;
+      font-family: "Inter", "Vazirmatn", sans-serif;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    /* هدر نئونی */
+    header {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 800;
+      padding: 30px 0;
+      background: linear-gradient(45deg, #161315, #3e16e0, #ff77ff);
+      -webkit-background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 20px rgba(255,77,189,0.6), 0 0 30px rgba(124,58,237,0.4);
+      animation: glow 1.5s infinite alternate;
+    }
+
+    @keyframes glow {
+      0% { text-shadow: 0 0 10px #ff4dbd, 0 0 20px #7c3aed; }
+      50% { text-shadow: 0 0 20px #ff77ff, 0 0 30px #ff4dbd; }
+      100% { text-shadow: 0 0 15px #7c3aed, 0 0 25px #ff77ff; }
+    }
+
+    /* منو */
+    nav {
+      backdrop-filter: blur(15px);
+      background: rgba(0,0,0,0.2);
+      border-radius: 20px;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+      margin: 0 auto 40px auto;
+      width: 80%;
+    }
+
+    nav a {
+      color: #fff !important;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding: 10px 25px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff77ff !important;
+      transform: scale(1.1);
+    }
+
+    /* سکشن‌ها */
+    section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 25px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+      padding: 40px;
+      margin: 60px auto;
+      backdrop-filter: blur(15px);
+      width: 85%;
+      transition: 0.4s;
+    }
+
+    section:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 40px rgba(0,0,0,0.6);
+    }
+
+    section h3 {
+      font-weight: 800;
+      color: #ff77ff;
+      text-shadow: 0 0 15px #ff4dbd;
+      margin-bottom: 35px;
+    }
+
+    .media-box {
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(255,77,189,0.5);
+      background: rgba(255,255,255,0.05);
+      transition: 0.3s;
+    }
+
+    .media-box:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 25px rgba(255,77,189,0.8);
+    }
+
+    img, video {
+      width: 100%;
+      height: 250px; /* همه یک اندازه */
+      object-fit: cover;
+      border-radius: 15px;
+      display: block;
+    }
+
+    audio {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 60px;
+      color: #fff;
+      font-weight: bold;
+      background: linear-gradient(90deg, #7c3aed, #ff4dbd);
+      box-shadow: 0 -4px 15px rgba(0,0,0,0.4);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>✨ علاقمندی‌های من ✨</header>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#books">📚 کتاب‌ها</a></li>
+        <li class="nav-item"><a class="nav-link" href="#videos">🎬 فیلم‌ها</a></li>
+        <li class="nav-item"><a class="nav-link" href="#music">🎵 موسیقی</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- کتاب‌ها -->
+    <section id="books" class="text-center">
+      <h3>📚 کتاب‌ها</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="media-box">
+            <img src="Images/GolestanVaziriGelaseBaGhab-1.jpg" alt="کتاب 1">
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="media-box">
+            <img src="Images/hfg.jpg" alt="کتاب 2">
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="media-box">
+            <img src="Images/SFE.jpg" alt="کتاب 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- فیلم‌ها -->
+    <section id="videos" class="text-center">
+      <h3>🎬 فیلم‌ها</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="media-box">
+            <video controls>
+              <source src="Videos/takhtejamshid.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="media-box">
+            <video controls>
+              <source src="Videos/korosh.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- موسیقی -->
+    <section id="music" class="text-center">
+      <h3>🎵 موسیقی</h3>
+      <div class="media-box p-4">
+        <audio controls>
+          <source src="Audios/Improvisation in Bayate Esfahan - Parviz Meshkatian.mp3">
+          مرورگر شما از پخش موسیقی پشتیبانی نمی‌کند.
+        </audio>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    طراحی و ساخت توسط ❤️ شقایق پورمعصومی ❤️
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
